@@ -47,7 +47,7 @@ elseif(isset($_GET['s'])){
         <?php if(isset($_GET['c'])): ?>
         <div class="col-md-3 border-right mb-2 pb-3">
         </header>
-<!-- Remove Sub in Heading 3-->
+<!-- Remove Sub on Heading 3-->
             <h3><b>Categories</b></h3>
             <div class="list-group">
                 <a href="./?p=products&c=<?php echo $_GET['c'] ?>" class="list-group-item <?php echo !isset($_GET['s']) ? "active" : "" ?>">All</a>
